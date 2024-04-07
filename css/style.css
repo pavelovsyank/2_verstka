@@ -58,6 +58,11 @@ a {
   background-color: #666681;
 }
 
+.btn-full{
+  width:100%;
+
+}
+
 .header {
   border-bottom: 1px solid #32323d;
 }
@@ -455,7 +460,7 @@ background-color: #14131d;
 
 .product__image{
   flex:1;
-  padding: 0 10px;
+  padding: 0 10px 80px;
 }
 
 .product__image .product__item{
@@ -478,6 +483,12 @@ background-color: #14131d;
   padding:30px;
   background-color: #14141d;
   border-radius: 10px;
+}
+
+.product__item ul{
+  margin:0;
+  font-size:18px;
+  line-height:1.4;
 }
 
 .product__price{
@@ -534,3 +545,13 @@ background-color: #14131d;
 .radio__label:hover{
   color:#c7a17a;
 }
+
+.product__footer{
+  margin-bottom:80px;
+}
+
+.product__footer .block-title{
+  font-size: 24px;
+  margin-bottom:30px;
+}
+
